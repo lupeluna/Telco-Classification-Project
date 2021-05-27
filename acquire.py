@@ -47,3 +47,5 @@ def get_telco_data(cached=False):
         df = pd.read_csv('telco_df.csv', index_col=0)
         
     return df
+
+
