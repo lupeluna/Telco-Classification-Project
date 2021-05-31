@@ -1,4 +1,32 @@
 # Telco-Classification-Project
+______________________
+
+Hello,
+
+Welcome to the README file for my "Telco Churn Classification Project"
+
+Here, you will find my work on working through the pipeline and will also find the data dictionary to help offer more insight to the variables being used.
+
+_______________________
+
+## GOAL:
+
+My goal is to identify and key driver(s) of churn within the TELCO database and develop a classification model to accurately predict the key driver(s) of churn.
+
+______________________
+
+
+
+## Planning process
+
+Below you will see the TRELLO pipleline I used which can also be found in this link: [title](https://trello.com/b/Br3Pok0L/telco-churn-classification)
+
+In the process of creating this README file, you can see where I was at at this point below.
+
+
+![alt text](ScreenShot.png)
+
+
 
 -  Please use this data dictionary as a reference for the variables used within in the data set.
 
