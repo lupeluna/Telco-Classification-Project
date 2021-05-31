@@ -41,3 +41,8 @@ def telco_split(df):
 
 
 
+
+
+
+# train, validate, test = train_validate_test_split(df, seed=123)
+# train.head()
