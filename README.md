@@ -19,14 +19,15 @@ ______________________
 
 ## Planning process
 
-Below you will see the TRELLO pipleline I used which can also be found in this link: [title](https://trello.com/b/Br3Pok0L/telco-churn-classification)
+Below you will see the TRELLO pipleline I used which can also be found in this link: [TrelloBoard](https://trello.com/b/Br3Pok0L/telco-churn-classification)
 
 In the process of creating this README file, you can see where I was at at this point below.
 
 
-![alt text](ScreenShot.png)
+![Trello](ScreenShot.png)
 
 
+___________________________
 
 -  Please use this data dictionary as a reference for the variables used within in the data set.
 
