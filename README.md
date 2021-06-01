@@ -165,7 +165,7 @@ ___
 <hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
 
 You will need your own env file with database credentials along with all the necessary files listed below to run my final project notebook. 
-- [:white_check_mark:] Read this README.md
-- [:white_check_mark:] Download the aquire.py, prepare.py, and final_report.ipynb files into your working directory
-- [:white_check_mark:] Add your own env file to your directory. (user, password, host)
-- [:white_check_mark:] Run the final_report.ipynb notebook
+- [x] Read this README.md
+- [ ] Download the aquire.py, prepare.py, and final_report.ipynb files into your working directory
+- [ ] Add your own env file to your directory. (user, password, host)
+- [ ] Run the final_report.ipynb notebook
