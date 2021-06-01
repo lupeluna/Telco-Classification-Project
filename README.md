@@ -138,12 +138,10 @@ ___
 
 
 #### Model
-> - Store functions that are needed to acquire data  that will be used for the Telco Churn Analysis
-
+> - Establish a baseline accuracy to determine if having a model is better than no model and train for at least 3 different models
 
 #### Deliver
-> - Store functions that are needed to acquire data  that will be used for the Telco Churn Analysis
-
+> - Deliver my findings in the presention.
 
 
 
