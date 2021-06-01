@@ -136,14 +136,14 @@ ___
 > - Import the prepare function from the prepare.py module and use it to prepare the data in the Final Report Notebook.
 ___
 
-##### Plan -> Acquire -> Prepare -> **Explore ->** Model -> Deliver
+##### Plan -> Acquire -> Prepare -> :white_check_mark:Explore ->** Model -> Deliver
 > - Answer key questions, my hypotheses, and figure out the features that can be used in a classification model to best predict the target variable, species. 
 > - Run at least 2 statistical tests in data exploration. Document my hypotheses, set an alpha before running the tests, and document the findings well.
 > - Create visualizations and run statistical tests that work toward discovering variable relationships (independent with independent and independent with dependent). The goal is to identify features that are related to species (the target), identify any data integrity issues, and understand 'how the data works'. If there appears to be some sort of interaction or correlation, assume there is no causal relationship and brainstorm (and document) ideas on reasons there could be correlation.
 > - Summarize my conclusions, provide clear answers to my specific questions, and summarize any takeaways/action plan from the work above.
 ___
 
-##### Plan -> Acquire -> Prepare -> Explore -> **Model ->** Deliver
+##### Plan -> Acquire -> Prepare -> Explore -> :white_check_mark:Model ->** Deliver
 > - Establish a baseline accuracy to determine if having a model is better than no model and train and compare at least 3 different models. Document these steps well.
 > - Train (fit, transform, evaluate) multiple models, varying the algorithm and/or hyperparameters you use.
 > - Compare evaluation metrics across all the models you train and select the ones you want to evaluate using your validate dataframe.
@@ -152,7 +152,7 @@ ___
 > - Test the final model on the out-of-sample data (the testing dataset), summarize the performance, interpret and document the results.
 ___
 
-##### Plan -> Acquire -> Prepare -> Explore -> Model -> **Deliver**
+##### Plan -> Acquire -> Prepare -> Explore -> Model -> :white_check_mark:Deliver**
 > - Introduce myself and my project goals at the very beginning of my notebook walkthrough.
 > - Summarize my findings at the beginning like I would for an Executive Summary. (Don't throw everything out that I learned from Storytelling) .
 > - Walk Codeup Data Science Team through the analysis I did to answer my questions and that lead to my findings. (Visualize relationships and Document takeaways.) 
@@ -165,7 +165,7 @@ ___
 <hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
 
 You will need your own env file with database credentials along with all the necessary files listed below to run my final project notebook. 
-- [x] Read this README.md
-- [ ] Download the aquire.py, prepare.py, and final_report.ipynb files into your working directory
-- [ ] Add your own env file to your directory. (user, password, host)
-- [ ] Run the final_report.ipynb notebook
+- [:white_check_mark:] Read this README.md
+- [:white_check_mark:] Download the aquire.py, prepare.py, and final_report.ipynb files into your working directory
+- [:white_check_mark:] Add your own env file to your directory. (user, password, host)
+- [:white_check_mark:] Run the final_report.ipynb notebook
