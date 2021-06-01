@@ -36,8 +36,8 @@ ___________________________
 |   Feature      |  Data Type   | Description    |
 | :------------- | :----------: | -----------: |
 |  customer_id | object   | unique customer identifier    |
-| senior_citizen   | int64 | # of months as a customer|
-| tenure_in_months   | int64 | Whether one is a senior or not|
+| senior_citizen   | int64 | Whether one is a senior or not|
+| tenure_in_months   | int64 | How many months a customer had service|
 | total_charges   | int64 | total charges since day 1|
 | churn  | object| Yes = Churn, No = Not Churned|
 | average_charges  | float64| total_charges / tenure_in_months|
@@ -81,13 +81,13 @@ ___________________________
 
 > - **Hypothesis 1 -** I rejected the Null Hypothesis; there is a difference.
 > - alpha = .05
-> - $H_0$: Sepal length is the same in virginica and versicolor. $\mu_{virginica} == \mu_{versicolor}$.  
-> - $H_a$: Sepal length significantly different in virginica and versicolor. $\mu_{virginica} != \mu_{versicolor}$. 
+> - $H_o$: There is no association between service types and churn.  
+> - $H_a$: There is an association between service types and churn. 
 
 > - **Hypothesis 2 -** I rejected the Null Hypothesis; there is a difference.
 > - alpha = .05
-> - $H_0$: Sepal width is the same in virginica and versicolor. $\mu_{virginica} == \mu_{versicolor}$.  
-> - $H_a$: Sepal width significantly different in virginica and versicolor. $\mu_{virginica} != \mu_{versicolor}$. 
+> - $H_0$: $H_o$: There is no association between tenure types and churn.
+> - $H_a$: There is an association between tenure types and churn.
 
 <hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
 
@@ -113,7 +113,7 @@ ___________________________
 - [x] Train three different classification models.
 - [x] Evaluate models on train and validate datasets.
 - [x] Choose the model with that performs the best and evaluate that single model on the test dataset.
-- [x] Create csv file with the measurement id, the probability of the target values, and the model's prediction for each observation in my test dataset.
+- [x] Create csv file with the customer id, the probability of churn, and the model's predictions.
 - [x] Document conclusions, takeaways, and next steps in the Final Report Notebook.
 
 ___
@@ -126,7 +126,7 @@ ___
 > - Plot distributions of individual variables.
 ___
 
-##### Plan -> Acquire -> **Prepare ->** Explore -> Model -> Deliver
+##### Plan -> Acquire -> :white_check_mark: Prepare ->** Explore -> Model -> Deliver
 > - Store functions needed to prepare the iris data; make sure the module contains the necessary imports to run the code. The final function should do the following:
     - Split the data into train/validate/test.
     - Handle any missing values.
